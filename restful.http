@@ -1,1 +1,18 @@
-GET http://localhost:3000/
+GET http://localhost:3000/photos/620bdbb64ff36c429171e10e/
+###
+POST http://localhost:3000/photos/
+Content-Type: application/json
+
+{
+     "_id":null,
+    "name": "a",
+    "season": "620bdbb64ff36c429171e105",
+    "typeIds":[
+        "620bdbb64ff36c429171e105"
+    ],
+    "tools":[
+        "a"
+    ],
+    "filePath":"abc"
+}
+
