@@ -5,7 +5,7 @@ require('./db/dbConnection');
 const app = express();
 
 //Middlewares
-app.use(cors)
+app.use(cors())
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(bodyParser.json());
