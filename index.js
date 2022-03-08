@@ -15,6 +15,8 @@ const photosRoute=require('./rooter/photos');
 app.use('/photos',photosRoute);
 const drawingsRoute=require('./rooter/drawings');
 app.use('/drawings',drawingsRoute);
+const filterRoute=require('./rooter/filter');
+app.use('/filter',filterRoute);
 
 app.get('/',(req,res) => {
 res.json({'mesaj':'açıldı'});
